@@ -18,7 +18,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "DidmomiLocal",
+            name: "DidomiLocal",
             path: "SPMDidomi/Didomi.xcframework"
         )
     ]
