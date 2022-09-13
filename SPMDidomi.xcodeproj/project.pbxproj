@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		06DC709328D089F90093FCC1 /* SPMDidomi.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DC709228D089F90093FCC1 /* SPMDidomi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		06DC709C28D08C660093FCC1 /* Didomi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DC709B28D08C660093FCC1 /* Didomi.xcframework */; };
+		06DC709E28D08F060093FCC1 /* SPMDidomi.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06DC709D28D08F060093FCC1 /* SPMDidomi.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06DC708F28D089F90093FCC1 /* SPMDidomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SPMDidomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DC709228D089F90093FCC1 /* SPMDidomi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMDidomi.h; sourceTree = "<group>"; };
-		06DC709B28D08C660093FCC1 /* Didomi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Didomi.xcframework; sourceTree = "<group>"; };
+		06DC709D28D08F060093FCC1 /* SPMDidomi.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SPMDidomi.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -22,7 +22,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DC709C28D08C660093FCC1 /* Didomi.xcframework in Frameworks */,
+				06DC709E28D08F060093FCC1 /* SPMDidomi.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +48,7 @@
 		06DC709128D089F90093FCC1 /* SPMDidomi */ = {
 			isa = PBXGroup;
 			children = (
-				06DC709B28D08C660093FCC1 /* Didomi.xcframework */,
+				06DC709D28D08F060093FCC1 /* SPMDidomi.xcframework */,
 				06DC709228D089F90093FCC1 /* SPMDidomi.h */,
 			);
 			path = SPMDidomi;

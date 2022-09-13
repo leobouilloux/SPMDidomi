@@ -3,7 +3,7 @@ import PackageDescription
 
 
 let package = Package(
-    name: "SPM Didomi",
+    name: "SPMDidomi",
     platforms: [
         .macOS(.v10_14), .iOS(.v13), .tvOS(.v13)
     ],
@@ -11,15 +11,15 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SPMDidomi",
-            targets: ["DidomiLocal"])
+            targets: ["SPMDidomi"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
     ],
     targets: [
         .binaryTarget(
-            name: "DidomiLocal",
-            path: "SPMDidomi/Didomi.xcframework"
+            name: "SPMDidomi",
+            path: "SPMDidomi/SPMDidomi.xcframework"
         )
     ]
 )
