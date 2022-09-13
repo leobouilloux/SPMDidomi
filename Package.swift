@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DidmomiLocal",
-            path: "SPMDidomo/Didomi.xcframework"
+            path: "SPMDidomi/Didomi.xcframework"
         )
     ]
 )
